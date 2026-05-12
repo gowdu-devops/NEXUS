@@ -59,7 +59,7 @@ Step 13: Configure Nexus User
 Step 14: Create Nexus Service File
 >> sudo vi /etc/systemd/system/nexus.service
    ```
-        [Unit]
+[Unit]
 Description=Nexus Repository Manager
 After=network.target
 [Service]
