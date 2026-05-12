@@ -85,17 +85,17 @@ Step 17: Check Nexus Status
 >>sudo systemctl status nexus
 -------------------------------------------------------------------==========================================================
 AFTER COMPLETE SETUP CHECK IP_ADDRESS:8081
-CLICK ON SIGN IN AND USER NAME: admin AND PASSWORD WE CAN SET AGAIN LOGIN 
+CLICK ON SIGN IN AND USER NAME: 
+admin AND PASSWORD WE CAN SET AGAIN LOGIN 
 TERMINAL : cat /opt/sonatype-work/nexus3/admin.password 
- LIKE THIS WE GET PASSWORD : 
-  copy :  
+LIKE THIS WE GET PASSWORD : 
+copy :  
         << cbab532d-6b44-4ced-ba00-158ae742dba6 >>
 PLEASE ENTER PASSWORD AND SAVE : 
 ANONYMOUS ACCESS : 
     MOSTLY WE GIVE DISABLE ONLY
 DISABLE :
 ==============================================================================
-
 👉 “In Maven projects, Nexus repository URLs are configured in pom.xml, while authentication credentials like username and password are configured securely in settings.xml.”
 
 using Apache Maven and Sonatype Nexus Repository:
@@ -241,24 +241,4 @@ release :
  <version>1.0</version>
 
 </project>
-===============================================================================
-Role  : 
-Read Access  :  nx-repository-view-maven2-*-read
-Meaning:
- 👉 read all Maven repositories.
-
-Upload Access : nx-repository-view-maven2-*-add
-Meaning:
- 👉 upload artifacts.
-
-Edit Access : nx-repository-view-maven2-*-edit
-Meaning:
- 👉 modify repository contents.
-Delete Privilege : nx-repository-view-maven2-*-delete
-Meaning:
- 👉 delete artifacts from Maven repositories.
-
-USERS : 
-LOGIN WITH NEW USER WE CAN SEE LIKE THIS :
-CLEAN POLICIES : 
 
