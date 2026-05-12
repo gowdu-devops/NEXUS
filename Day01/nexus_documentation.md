@@ -83,7 +83,7 @@ Step 16: Start Nexus Service
 ---------------------------------------------------------------------
 Step 17: Check Nexus Status
 >>sudo systemctl status nexus
--------------------------------------------------------------------==========================================================
+==========================================================
 AFTER COMPLETE SETUP CHECK IP_ADDRESS:8081
 CLICK ON SIGN IN AND USER NAME: 
 admin AND PASSWORD WE CAN SET AGAIN LOGIN 
